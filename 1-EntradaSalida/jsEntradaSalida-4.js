@@ -4,6 +4,10 @@
 */
 function Mostrar()
 {
+	var nombre = "Juan";
+
+	document.getElementById("elNombre").value = nombre;
+
 	
 }
 
