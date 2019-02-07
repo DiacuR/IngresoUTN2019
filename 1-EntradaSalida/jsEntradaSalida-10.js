@@ -5,4 +5,8 @@ en el cuadro de texto "RESULTADO"*/
 function MostrarDescuento()
 {
 	
+    var resultado = document.getElementById("resultado").value = importe - descuento;
+    var importe = parseInt(document.getElementById("importe").value);
+
+    var descuento = (25*importe)/100;
 }

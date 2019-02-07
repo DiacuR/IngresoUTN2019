@@ -4,6 +4,10 @@ Mostar el resulto por medio de "ALERT"*/
 function sumar()
 {
     var primerNumero = document.getElementById("numeroUno").value;
-    var segundoNumero = document.getElementById("numeroDos").vale;
+    var segundoNumero = document.getElementById("numeroDos").value;
+
+    var resultado = parseInt(primerNumero) + parseInt(segundoNumero);
+
+    alert(resultado);
 }
 
